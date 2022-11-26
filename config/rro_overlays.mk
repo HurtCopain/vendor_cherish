@@ -19,7 +19,6 @@ PRODUCT_PACKAGES += \
     CustomPixelLauncherOverlay \
     PixelDocumentsUIGoogleOverlay \
     BuiltInPrintServiceOverlay \
-    GooglePermissionControllerOverlay \
     PixelConfigOverlayCommon \
     TeleServiceOverlay \
     CaptivePortalLoginOverlay \
