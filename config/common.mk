@@ -182,7 +182,9 @@ PRODUCT_PACKAGES += \
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
-    SystemUIGoogle
+    SystemUIGoogle \
+    NexusLauncherRelease \
+    Launcher3QuickStep   
 
 ifeq ($(TARGET_SUPPORTS_64_BIT_APPS), true)
 # Use 64-bit dex2oat for better dexopt time.
