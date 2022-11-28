@@ -70,7 +70,11 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # Launcher
 PRODUCT_PACKAGES += \
     Launcher3QuickStep
-    
+  
+# Config
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig
+        
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/cherish/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
