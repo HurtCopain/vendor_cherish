@@ -73,8 +73,9 @@ PRODUCT_PACKAGES += \
   
 # Config
 PRODUCT_PACKAGES += \
-    SimpleDeviceConfig
-        
+    SimpleDeviceConfig \
+    QuickAccessWallet
+            
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/cherish/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
