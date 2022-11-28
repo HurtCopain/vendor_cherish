@@ -42,4 +42,6 @@ PRODUCT_PACKAGES += \
     GoogleConfigOverlay \
     SystemUIGoogleOverlay \
     StorageManagerGoogleOverlay \
-    FlipendoOverlay
+    FlipendoOverlay \
+    ImmersiveNavigationOverlay \
+    NowPlayingOverlay
