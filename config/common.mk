@@ -79,6 +79,11 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # PRODUCT_SYSTEM_EXT_PROPERTIES += \
 #     ro.launcher.blur.appLaunch=0
 
+# Config
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig \
+    QuickAccessWallet
+    
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/cherish/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
