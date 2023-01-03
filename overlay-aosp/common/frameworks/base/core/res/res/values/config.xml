@@ -320,6 +320,8 @@
         <item>com.google.android.apps.wear.companion</item>
     </string-array>
 
+    <string name="config_recentsComponentName">com.google.android.apps.nexuslauncher/com.android.quickstep.RecentsActivity</string>
+
     <!-- A list of SHA256 Certificates managing companion device(s) by the same manufacturers as
          the main device. It will fall back to showing a prompt if the association has been called
          multiple times in a short period.
