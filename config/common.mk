@@ -295,22 +295,10 @@ PRODUCT_PACKAGES += \
     UdfpsResources
 endif
 
-# Build
-ifeq ($(CHERISH_VANILLA), true)
-include vendor/cherish/config/basicapps.mk
-
-else
-
-# Gapps
-ifeq ($(TARGET_USES_MINI_GAPPS),true)
-$(call inherit-product, vendor/gapps/config_mini.mk)
-else
 $(call inherit-product, vendor/gapps/config.mk)
-endif
 
 # RRO Overlays
 $(call inherit-product, vendor/cherish/config/rro_overlays.mk)
-endif
 
 # OTA
 $(call inherit-product, vendor/cherish/config/ota.mk)
