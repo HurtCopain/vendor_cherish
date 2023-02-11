@@ -327,4 +327,52 @@ endif
 # Pixel Framework
 $(call inherit-product, vendor/pixel-framework/config.mk)
 
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+	system/addon.d/50-cherish.sh \
+	system/app/GoogleExtShared/GoogleExtShared.apk \
+	system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk \
+	system/app/NfcNci/NfcNci.apk \
+	system/app/NfcNci/lib/arm64/libnfc_nci_jni.so \
+	system/app/NfcNci/oat/arm64/NfcNci.odex \
+	system/app/NfcNci/oat/arm64/NfcNci.vdex \
+	system/bin/backuptool_ab.functions \
+	system/bin/backuptool_ab.sh \
+	system/bin/backuptool_postinstall.sh \
+	system/bin/fsck.ntfs \
+	system/bin/mkfs.ntfs \
+	system/bin/mount.ntfs \
+	system/bin/tinycap \
+	system/bin/tinyhostless \
+	system/bin/tinymix \
+	system/bin/tinypcminfo \
+	system/bin/tinyplay \
+	system/etc/apns-conf.xml \
+	system/etc/libnfc-nci.conf \
+	system/etc/permissions/android.software.nfc.beam.xml \
+	system/etc/permissions/android.software.sip.voip.xml \
+	system/etc/permissions/privapp-permissions-google.xml \
+	system/etc/sysconfig/backup.xml \
+	system/etc/sysconfig/cherish-sysconfig.xml \
+	system/etc/textclassifier/actions_suggestions.universal.model \
+	system/etc/textclassifier/lang_id.model \
+	system/etc/textclassifier/textclassifier.en.model \
+	system/etc/textclassifier/textclassifier.universal.model \
+	system/lib/libRSSupport.so \
+	system/lib/libblasV8.so \
+	system/lib/librsjni.so \
+	system/lib64/android.hardware.nfc-V1-ndk.so \
+	system/lib64/android.hardware.nfc@1.0.so \
+	system/lib64/android.hardware.nfc@1.1.so \
+	system/lib64/android.hardware.nfc@1.2.so \
+	system/lib64/libRSSupport.so \
+	system/lib64/libblasV8.so \
+	system/lib64/libfuse-lite.so \
+	system/lib64/libnfc-nci.so \
+	system/lib64/libnfc_nci_jni.so \
+	system/lib64/libntfs-3g.so \
+	system/lib64/librsjni.so \
+	system/media/bootanimation.zip \
+	system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk \
+	system/priv-app/TagGoogle/TagGoogle.apk 
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
